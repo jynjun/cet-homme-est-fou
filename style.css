@@ -1,0 +1,81 @@
+
+body {
+  font-family: 'Georgia', serif;
+  background: #f4f1ec;
+  text-align: center;
+  padding: 2em;
+  color: #222;
+}
+#countdown {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+#scene {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.character-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.character-block .name {
+  font-weight: bold;
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+}
+
+.character {
+  width: 120px;
+  height: auto;
+  margin-bottom: 8px;
+}
+
+.sub-image {
+  width: 100px;
+  height: auto;
+}
+.character {
+  width: 100px;
+  margin: 0 10px;
+}
+#countdown {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+#countdown div {
+  background: #f0e68c;
+  padding: 10px 15px;
+  border-radius: 8px;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+}
+
+.intro-text {
+  line-height: 2;
+  max-width: 600px;
+  margin: 10px auto 30px;
+  font-size: 1.1rem;
+  font-style: italic;
+  color: #555;
+  text-align: center;
+}
+.instruction {
+  text-align: center;
+  font-size: 1.2rem;
+  font-style: italic;
+  margin-top: 40px auto 0;
+  color: #444;  
+  width: 100%;
+  display: block;
+}

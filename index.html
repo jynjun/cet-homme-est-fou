@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Compte à rebours - Mon Chéri vs Laure</title>
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+ <h1>⚜Le Dragon, la Fleur et la Princesse !⚜</h1>
+
+<p class="intro-text">
+  C'est dans une contrée Far Far away que notre preux chevalier en attente de surnom⚔️, pour s'enquérir du cœur de la Donzelle (͜ₒ ㅅ ͜ ₒ), partit pourfendre le légendaire dragon Laure🐉.  
+  Mais le temps lui est compté (musique suspens à faire dans ta tête parce que je n'ai pas le budget de Avatar) car s'il veut la pécho, il devra accomplir sa noble quête avant l'arrivée de la Belle👸.
+  <br><em>To be continu ...</em>
+</p>
+
+<div id="countdown">
+  <div><span id="days">00</span> jours</div>
+  <div><span id="hours">00</span> h</div>
+  <div><span id="minutes">00</span> min</div>
+  <div><span id="seconds">00</span> sec</div>
+</div>
+  <div id="scene">
+ 
+  <div class="character-block">
+    <p class="name">Chéri (toujours en attente)</p>
+    <img src="chevalier.png" alt="Chevalier John" class="character" />
+   </div>
+    
+  <div class="character-block">
+    <p class="name">Laure</p>
+    <img src="dragon.png" alt="Dragon Laure" class="character" />
+  </div>
+
+  <div class="character-block">
+    <p class="name">Mon joli petit Chat</p>
+    <img src="princesse.png" alt="Princesse Ele" class="character" />
+  </div>
+
+
+    <p class="instruction">👆 Clique sur un perso</p>
+
+</div>
+ <audio autoplay loop hidden>
+  <source src="medieval-loop.mp3" type="audio/mp3" />
+</audio>
+  <script src="script.js"></script>
+<script>
+  document.addEventListener('click', function () {
+    const audio = document.querySelector('audio');
+    if (audio.paused) {
+      audio.play();
+    }
+  }, { once: true });
+</script>
+</body>
+</html>
